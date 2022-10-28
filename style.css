@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;  
+}
+body{
+    background-color: #F2F2F2;
+}
+
+/*HEADER Y NAVBAR*/
+.header{ 
+    width: 100%;
+    height: 500px;
+    background-image: url(./images/logoweb.png);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    background-color: #093a3e;
+    text-align: center;
+    padding: 20px;
+}
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 30px;
+}
+.navbar a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar a:hover{
+    /* color: #1b5c6d; */
+    transition-duration: 1s;
+    text-decoration: underline 4px solid;
+    text-decoration-color: #f3b61f;
+}
+
+/*ABOUT ME*/
+.about_me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+.about_me h1{
+    font-size: 30px;
+    text-decoration: overline 3px #f3b61f;
+}
+
+.descripcion{
+    margin: 15px;
+    width: 40%;
+}
+
+.ilustracion img{
+    width: 400px;
+}
+
+/*SERVICIOS CARDS*/
+.services{
+    /* margin-top: 40px; */
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.services h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0;
+    text-decoration: overline 3px #f3b61f;
+}
+.container_cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px ;
+}
+
+
+/* From uiverse.io by @JoseIsra */
+.card {
+    width: 12rem;
+    cursor: pointer;
+    color: #f3b61f;;
+    
+  }
+  
+  .content {
+    text-align: center;
+    position: relative;
+    transition: all 2.25s;
+    background-color: #363a41;
+    padding: 5em;
+    transform-style: preserve-3d;
+    border-radius: 25px;
+  }
+  
+  .card:hover .content {
+    transform: rotateY(0.5turn);
+    border-radius: 25px;
+  }
+  
+  .front,
+  .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 2em;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+  }
+  
+  .title {
+    transform: translateZ(5rem);
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    transform: translateZ(2rem);
+  }
+  
+  .back {
+    transform: rotateY(0.5turn);
+    background-color: #4e5663;
+    border-radius: 25px; 
+  }
+  
+  .description {
+    transform: translateZ(3rem);
+  }
+  
+
+/*PORTAFOLIO*/
+
+.portafolio{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.portafolio h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0;
+    text-decoration: overline 3px #f3b61f;
+}
+.galeria-port{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.imagen-port{
+	width: 24%;
+	height: 200px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+}
+.imagen-port >img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+.hover-galeria{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	transform: scale(0);
+	background: rgba(211, 209, 212, 0.5);
+	transition: transform .5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.hover-galeria p{
+	color: #FFFFFF;
+}
+.imagen-port:hover .hover-galeria{
+	transform: scale(1);
+}
+
+/*Footer*/
+footer{
+    background-color: #181c24;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin-top: auto;
+}
+
+footer li{
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+.icons a{
+    background: #f3b61f;
+    color: #272727;
+    padding: 14px;
+    font-size: 20px;
+    border-radius: 100%;
+    display: flex;
+}
+.icons a:hover{
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.menu a:hover{
+    color: #f3b61f;
+    transition: 0.5s;
+}
+
