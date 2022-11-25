@@ -4,148 +4,155 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desarrollador Web ubicado en Peru. Interesado en todo el espectro frontend y trabajando en proyectos ambiciosos con personas positivas.">
+    <meta name="keywords" content="Mi portafolio,Portafolio,Web,Website,desarrollador web,developer,programacion,desarrollador">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Icons Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- CSS Style -->
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     
     <!-- RESPONSIVE -->
-    <title>Index boot</title>
+    <title>Home</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg  bg-navbar" >
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="images/logoweb.png"  width="110px" height="" alt=""></a>
-      <button class="navbar-toggler md type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon icono-toggler"><i class=" h1 bi bi-list"></i></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item px-sm-3">
-            <a class="nav-link text-navbar active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item px-sm-3">
-            <a class="nav-link text-navbar" href="about.html">About</a>
-          </li>
-          <li class="nav-item px-sm-3">
-            <a class="nav-link text-navbar" href="servicios.html">Services</a>
-          </li>
-          <li class="nav-item px-sm-3">
-            <a class="nav-link text-navbar" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item px-sm-3">
-            <a class="nav-link text-navbar" href="portafolio.html">Portafolio</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <header>
+    <nav class="navbar navbar-expand-lg  bg-navbar" >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="../images/logoweb.png"  width="110px" height="" alt="logo web jose perez"></a>
+            <button class="navbar-toggler md type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon icono-toggler"><i class=" h1 bi bi-list"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item px-sm-3">
+                  <a class="nav-link text-navbar" aria-current="page" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item px-sm-3">
+                  <a class="nav-link text-navbar active" href="./pages/about.html">About</a>
+                </li>
+                <li class="nav-item px-sm-3">
+                  <a class="nav-link text-navbar" href="./pages/servicios.html">Services</a>
+                </li>
+                <li class="nav-item px-sm-3">
+                  <a class="nav-link text-navbar" href="./pages/contact.html">Contact</a>
+                </li>
+                <li class="nav-item px-sm-3">
+                  <a class="nav-link text-navbar" href="./pages/portafolio.html">Portafolio</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+    </nav>
+  </header>
 
-  <div class="container">
+  <main>
+    <section>
+      <div class="container">
+        
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-8 ">
+            <img class="d-block imagen" src="./images/ilustre.png" alt="programador developer">
+          </div>
+          <div class="col-lg-4 text-center">  
+            <h1>
+              Hola, Soy un desarrollador web!
+            </h1>
+            <p>
+              Desarrollo páginas web. hechas a medida, con un diseño único y creativo.
+              La metología de trabajo se basa en el seguimiento y feed back continuo para asegurar,
+              así, la total satisfacción de los clientes.
+            </p>
+            <p><a class="btn btn-dark btn-lg" href="./pages/portafolio.html" role="button">Ver portafolio</a></p> 
+          </div>
+        </div>
+      </div>
+    </section>
     
-    <div class="row align-items-center justify-content-center">
-      <div class="col-lg-8 ">
-        <img class="d-block imagen" src="./images/ilustre.png" alt="programador">
-      </div>
-      <div class="col-lg-4 text-center">  
-        <h1>
-          Hello, world!
-        </h1>
-        <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <p><a class="btn btn-primary btn-lg" href="portafolio.html" role="button">View portfolio</a></p> 
-      </div>
-
-  </div>
-  
-  
-  
-
-  <div class="container">
-    <div class="row container cartas">
-      <h2 class="titulo">Servicios</h2>
-      <div class="card1 col-sm-3 col-lg-12 mb-3">
-        <div class="header">
-            <div class="img-box">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 0h24v24H0z" fill="none"></path>
-                    <path fill="rgba(0,65,78,255)" d="M20.083 15.2l1.202.721a.5.5 0 0 1 0 .858l-8.77 5.262a1 1 0 0 1-1.03 0l-8.77-5.262a.5.5 0 0 1 0-.858l1.202-.721L12 20.05l8.083-4.85zm0-4.7l1.202.721a.5.5 0 0 1 0 .858L12 17.65l-9.285-5.571a.5.5 0 0 1 0-.858l1.202-.721L12 15.35l8.083-4.85zm-7.569-9.191l8.771 5.262a.5.5 0 0 1 0 .858L12 13 2.715 7.429a.5.5 0 0 1 0-.858l8.77-5.262a1 1 0 0 1 1.03 0zM12 3.332L5.887 7 12 10.668 18.113 7 12 3.332z"></path>
-                </svg>
+    <section>
+      <div class="container">
+        <div class="row cartas">
+          <!-- Servicios -->
+          <div class="col-4 card1  mb-3">
+            <div class="header">
+                <div class="img-box">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path fill="rgba(0,65,78,255)" d="M20.083 15.2l1.202.721a.5.5 0 0 1 0 .858l-8.77 5.262a1 1 0 0 1-1.03 0l-8.77-5.262a.5.5 0 0 1 0-.858l1.202-.721L12 20.05l8.083-4.85zm0-4.7l1.202.721a.5.5 0 0 1 0 .858L12 17.65l-9.285-5.571a.5.5 0 0 1 0-.858l1.202-.721L12 15.35l8.083-4.85zm-7.569-9.191l8.771 5.262a.5.5 0 0 1 0 .858L12 13 2.715 7.429a.5.5 0 0 1 0-.858l8.77-5.262a1 1 0 0 1 1.03 0zM12 3.332L5.887 7 12 10.668 18.113 7 12 3.332z"></path>
+                    </svg>
+                </div>
+                <h1 class="title">Website Design</h1>
             </div>
-            <h1 class="title">Website Design</h1>
-        </div>
-      
-        <div class="content">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur
-                adipiscing it amet it...
-            </p>
-      
-            <a class="btn-link" href="/servicios.html">Learn More...</a>
-        </div>
-      </div>
-      
-      <div class="card1 col-sm-3 col-lg-12 mb-3">
-        <div class="header">
-            <div class="img-box">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 0h24v24H0z" fill="none"></path>
-                    <path fill="rgba(0,65,78,255)" d="M20.083 15.2l1.202.721a.5.5 0 0 1 0 .858l-8.77 5.262a1 1 0 0 1-1.03 0l-8.77-5.262a.5.5 0 0 1 0-.858l1.202-.721L12 20.05l8.083-4.85zm0-4.7l1.202.721a.5.5 0 0 1 0 .858L12 17.65l-9.285-5.571a.5.5 0 0 1 0-.858l1.202-.721L12 15.35l8.083-4.85zm-7.569-9.191l8.771 5.262a.5.5 0 0 1 0 .858L12 13 2.715 7.429a.5.5 0 0 1 0-.858l8.77-5.262a1 1 0 0 1 1.03 0zM12 3.332L5.887 7 12 10.668 18.113 7 12 3.332z"></path>
-                </svg>
+          
+            <div class="content">
+                <p>
+                  El diseño web es un área enfocada en el desarrollo de interfaces digitales...
+                </p>
+          
+                <a class="btn-link" href="./pages/servicios.html">Learn More...</a>
             </div>
-            <h1 class="title">Mobile Friendly</h1>
-        </div>
-      
-        <div class="content">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur
-                adipiscing it amet it...
-            </p>
-      
-            <a class="btn-link" href="/servicios.html">Learn More...</a>
-        </div>
-      </div>
-      
-      <div class="card1 col-sm-3 col-lg-12 mb-3">
-        <div class="header">
-            <div class="img-box">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 0h24v24H0z" fill="none"></path>
-                    <path fill="rgba(0,65,78,255)" d="M20.083 15.2l1.202.721a.5.5 0 0 1 0 .858l-8.77 5.262a1 1 0 0 1-1.03 0l-8.77-5.262a.5.5 0 0 1 0-.858l1.202-.721L12 20.05l8.083-4.85zm0-4.7l1.202.721a.5.5 0 0 1 0 .858L12 17.65l-9.285-5.571a.5.5 0 0 1 0-.858l1.202-.721L12 15.35l8.083-4.85zm-7.569-9.191l8.771 5.262a.5.5 0 0 1 0 .858L12 13 2.715 7.429a.5.5 0 0 1 0-.858l8.77-5.262a1 1 0 0 1 1.03 0zM12 3.332L5.887 7 12 10.668 18.113 7 12 3.332z"></path>
-                </svg>
+          </div>
+          
+          <div class="col-4 card1  mb-3">
+            <div class="header">
+                <div class="img-box">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path fill="rgba(0,65,78,255)" d="M20.083 15.2l1.202.721a.5.5 0 0 1 0 .858l-8.77 5.262a1 1 0 0 1-1.03 0l-8.77-5.262a.5.5 0 0 1 0-.858l1.202-.721L12 20.05l8.083-4.85zm0-4.7l1.202.721a.5.5 0 0 1 0 .858L12 17.65l-9.285-5.571a.5.5 0 0 1 0-.858l1.202-.721L12 15.35l8.083-4.85zm-7.569-9.191l8.771 5.262a.5.5 0 0 1 0 .858L12 13 2.715 7.429a.5.5 0 0 1 0-.858l8.77-5.262a1 1 0 0 1 1.03 0zM12 3.332L5.887 7 12 10.668 18.113 7 12 3.332z"></path>
+                    </svg>
+                </div>
+                <h1 class="title">App Development</h1>
             </div>
-            <h1 class="title">Ecommerce</h1>
+          
+            <div class="content">
+                <p>
+                  El desarrollo de aplicaciones móviles es el acto o proceso mediante el cual se desarrolla...
+                </p>
+          
+                <a class="btn-link" href="./pages/servicios.html">Learn More...</a>
+            </div>
+          </div>
+          
+          <div class="col-4 card1  mb-3">
+            <div class="header">
+                <div class="img-box">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path fill="rgba(0,65,78,255)" d="M20.083 15.2l1.202.721a.5.5 0 0 1 0 .858l-8.77 5.262a1 1 0 0 1-1.03 0l-8.77-5.262a.5.5 0 0 1 0-.858l1.202-.721L12 20.05l8.083-4.85zm0-4.7l1.202.721a.5.5 0 0 1 0 .858L12 17.65l-9.285-5.571a.5.5 0 0 1 0-.858l1.202-.721L12 15.35l8.083-4.85zm-7.569-9.191l8.771 5.262a.5.5 0 0 1 0 .858L12 13 2.715 7.429a.5.5 0 0 1 0-.858l8.77-5.262a1 1 0 0 1 1.03 0zM12 3.332L5.887 7 12 10.668 18.113 7 12 3.332z"></path>
+                    </svg>
+                </div>
+                <h1 class="title">E-commerce</h1>
+            </div>
+          
+            <div class="content">
+                <p>
+                  El e-commerce es el proceso mediante el cual la compra, venta, pedido y pago de productos....
+                </p>
+          
+                <a class="btn-link" href="./pages/servicios.html" >Learn More...</a>
+                
+            </div>
+          </div>
+          
         </div>
-      
-        <div class="content">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur
-                adipiscing it amet it...
-            </p>
-      
-            <a class="btn-link" href="/servicios.html" >Learn More...</a>
-            
+        
+        <div class="text-center m-4 ">
+          <a class="btn btn-dark px-5" href="./pages/servicios.html" role="button">Ver mas</a>
         </div>
       </div>
-      
-    </div>
-    
-  </div>
+    </section>
+  </main>
 
 
-
-
-  
-  <footer class="text-center text-white" style="background-color: #f1f1f1;">
+  <footer class="text-center text-white" style="background-color: #212121">
     <!-- Grid container -->
     <div class="container pt-4">
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
         <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          class="btn btn-link btn-floating btn-lg text-light m-1"
           href="#!"
           role="button"
           data-mdb-ripple-color="dark"
@@ -154,7 +161,7 @@
   
         <!-- Twitter -->
         <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          class="btn btn-link btn-floating btn-lg text-light m-1"
           href="#!"
           role="button"
           data-mdb-ripple-color="dark"
@@ -163,7 +170,7 @@
   
         <!-- Google -->
         <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          class="btn btn-link btn-floating btn-lg text-light m-1"
           href="#!"
           role="button"
           data-mdb-ripple-color="dark"
@@ -172,7 +179,7 @@
   
         <!-- Instagram -->
         <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          class="btn btn-link btn-floating btn-lg text-light m-1"
           href="#!"
           role="button"
           data-mdb-ripple-color="dark"
@@ -181,7 +188,7 @@
   
         <!-- Linkedin -->
         <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          class="btn btn-link btn-floating btn-lg text-light m-1"
           href="#!"
           role="button"
           data-mdb-ripple-color="dark"
@@ -189,7 +196,7 @@
         ></a>
         <!-- Github -->
         <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          class="btn btn-link btn-floating btn-lg text-light m-1"
           href="#!"
           role="button"
           data-mdb-ripple-color="dark"
@@ -201,9 +208,9 @@
     <!-- Grid container -->
   
     <!-- Copyright -->
-    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2020 Copyright:
-      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <div class="text-center text-light p-3" style="background-color: #212121;">
+      © 2022 Copyright:
+      <a class="text-light" href="https://mdbootstrap.com/">MDBootstrap.com</a>
     </div>
     <!-- Copyright -->
   </footer>
